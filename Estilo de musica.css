@@ -1,0 +1,102 @@
+  body {
+      
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      background-image: url("imagen fondo.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+
+
+
+}
+
+
+    input[type="text"] {
+      width: 60%;
+      padding: 10px;
+      margin: 20px 0;
+      font-size: 16px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: orange;
+      margin: 10px auto;
+      padding: 10px;
+      width: 80%;
+      border-radius: 100px 100px 100px;
+      border-top: 30px solid black;
+      border-bottom: 8px solid black;
+
+
+
+
+    }
+
+p {
+    color: black;
+    font-size: 17pt;
+    font-family:fantasy;
+    text-shadow: 1px 2px 3px blue;
+}    
+h1 {
+    color: blue;
+    font-size: 30pt;
+    text-shadow: 3px 2px 2px black;
+    animation: mov1 4s linear infinite;
+
+}
+@keyframes mov1  {
+    10% {transform: scale(0.9);}
+    
+    
+}
+
+h2 {
+    color: aqua;
+    text-align: left;
+    font-size: 30pt;
+    text-shadow: 3px 2px 3px black;
+    animation: mov 4s linear infinite;
+
+}
+@keyframes mov {
+    10% {color: red;}
+    20% {color: green;}
+    30% {color: blue;}
+    40% {transform: rotateY(20deg);}
+}
+#controles {
+    margin: 20px 0;
+}
+#controles button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #4a4a4a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#controles button:hover {
+     background-color: #45a049;
+
+}
+h3 {
+    color: green;
+    font-size: 20pt;
+    text-shadow: 4px 5px 3px black;
+    animation: mov3 5s linear infinite;
+}
+@keyframes mov3 {
+    10% {transform:translate(10px);}
+    20% {transform: translate(-10px);}
+}
